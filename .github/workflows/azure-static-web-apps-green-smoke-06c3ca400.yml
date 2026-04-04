@@ -44,7 +44,7 @@ jobs:
           ###### Monorepo: root package.json runs the Vite build; output is under frontend/dist ######
           app_location: "/"
           api_location: ""
-          output_location: "frontend/dist"
+          output_location: "dist"
           github_id_token: ${{ steps.idtoken.outputs.result }}
 
   close_pull_request_job:
