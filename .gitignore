@@ -12,6 +12,7 @@ dist
 
 .env.*
 !.env.example
+!.env.production
 dist-ssr
 *.local
 
